@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: 27282D;
+    
+}
+
+.form{
+    text-align: center;
+    padding: 20px;
+}
+/* Imagem do forumalrio */
+.form img{
+    max-width: 300px;
+    width: 100%;
+}
+
+.form input[type=text],
+.form input[type=email]{
+    padding-left:10px;
+    max-width: 500px;
+    border-radius: 20px;
+    font-size: 19px;
+    /* Foi utilizado block somente para os campos, pois para eles irem para baixo */
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    height: 35px;
+    border: 1px solid #ccc;
+}
+/* Texto para os usuarios escreverem */
+.form textarea{
+    padding: 10px;
+    resize:vertical;
+    display: block;
+    margin: 10px auto;
+    border-radius: 20px;
+    font-size: 19px;
+    max-width: 500px;
+    width: 100%;
+    height: 120px;
+}
+
+.form input[type=submit]{
+    padding-left:10px;
+    max-width: 500px;
+    border-radius: 20px;
+    font-size: 19px;
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    height: 35px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    color: white;
+    background-color: #571aad;
+}
